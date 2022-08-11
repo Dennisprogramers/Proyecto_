@@ -139,7 +139,7 @@ body{
  /******Contenedores****/
 
 .fondo_principal{
-	opacity: 0.5;
+	opacity: 0.3;
   position: absolute;
 	left: 0;
   top: 0;
@@ -221,6 +221,9 @@ body{
 /*
           *****Nav_Escritorio***
 */
+
+/*		Responsive para moviles*/
+
 @media only screen and (max-width:900px ){
 	.menu a span {
   transition: transform 0.2s ease-out;
@@ -264,13 +267,13 @@ margin-bottom: 0;
 .contenedor-secundary{
 	width: 100%;
 	background-color:#d6dbdf;
-	height: auto;
+	height: auto!important;
 	margin-bottom: 0;
 }
 .contenedor_parrafos{
 	font-size: 18px;
-width: 100%;
-height: auto;
+width: 100%!important;
+height: auto!important;
 color: white!important;
 border: solid #d6dbdf 1px;
 }
@@ -295,11 +298,11 @@ font-size:16px ;
 	.contenedor_parrafos_ther_2{
 font-size: 18px;
 width: 100%;
+height: auto;
 	}
 	.contenedor_parrafos_ther_2:hover{
 		 width: 100%;
-		 box-sizing: unset;
-		 height: 300px;
+		 height: auto;
 	}
 	.contenedor_parrafos_fourth{
       
@@ -308,5 +311,30 @@ width: 100%;
  .br_responsive{
  	display: none;
  }
+
+}
+/*		Responsive para tablet*/
+@media only screen and (max-width: 1179px ) {
+
+	.contenedor-secundary{
+	width: 100%;
+	background-color:#d6dbdf;
+	height: auto;
+}
+.contenedor_parrafos{
+	padding: 30px;
+	font-size: 14px;
+width:60%;
+height: 500px;
+color: white!important;
+border: solid #d6dbdf 1px;
+}
+
+.contenedor_parrafos:hover{
+        width: 65%;
+        height:500px ;
+        background-color:  #d6dbdf
+;
+}
 
 }
