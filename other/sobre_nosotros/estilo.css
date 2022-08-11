@@ -8,7 +8,9 @@
 	-webkit-box-shadow: 3px 3px 7px black;
     -moz-box-shadow: 3px 3px 7px black;
     width: 50%;
-    padding: 30px;
+    padding: 30px;ç
+	 background-color: black;
+    opacity: 0.4;
 }
 .responsive{
 	display: none;
