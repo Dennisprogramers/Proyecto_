@@ -200,5 +200,9 @@ padding: 60px;
 	}
 	.caja5{
 		 width: 100%!important;
+		 padding: 30px;
+	}
+	.container_caja6{
+		width:80%;
 	}
 }
